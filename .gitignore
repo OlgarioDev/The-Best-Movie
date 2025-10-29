@@ -1,2 +1,15 @@
 git add README.md
 image
+
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos temporários do sistema macOS
+.DS_Store
+
+# Ignorar pastas temporárias do Streamlit
+.streamlit/
