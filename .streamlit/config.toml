@@ -1,0 +1,16 @@
+# É para colocar cor na app
+
+[theme]
+# O "BRILHANTE": Cor principal usada em botões, sliders e links.
+# Cor forte (Neon Pink) para dar o efeito de destaque na noite.
+primaryColor="#E94560" 
+
+# O "DARK": Cor de fundo do corpo principal da aplicação.
+# Um preto muito escuro (quase Midnight Blue).
+backgroundColor="#303236ff" 
+
+# FUNDO SECUNDÁRIO: Cor de contraste usada em caixas de código e barras laterais.
+secondaryBackgroundColor="#262730" 
+
+# COR DO TEXTO
+textColor="#FFFFFF"
