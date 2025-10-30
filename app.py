@@ -10,7 +10,6 @@ import plotly.express as px
 from sklearn.linear_model import LinearRegression as LR
 import numpy as np
 import datetime
-import subprocess
 
 
 # Configuração inicial do Streamlit
@@ -87,7 +86,6 @@ def clear_search_input():
 
 TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500" 
 TMDB_API_KEY = "e7237188da61192e1afb5736111b16db" 
-
 
 
 
@@ -307,6 +305,7 @@ with button_col:
 with clear_top_col:
     st.markdown("<div style='margin-top: 5px;'></div>", unsafe_allow_html=True) 
     st.button("🗑️ Limpar", on_click=clear_search_input, key='clear_button_top') 
+    
 # --------------------------------------------------
 
 # Parâmetros de busca
