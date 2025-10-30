@@ -305,10 +305,11 @@ with button_col:
 with clear_top_col:
     st.markdown("<div style='margin-top: 5px;'></div>", unsafe_allow_html=True) 
     st.button("🗑️ Limpar", on_click=clear_search_input, key='clear_button_top') 
-    
+
 # --------------------------------------------------
 
 # Parâmetros de busca
+
 with st.expander("🛠️ Configurações Avançadas"):
     col1, col2 = st.columns(2)
     with col1:
