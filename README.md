@@ -56,3 +56,4 @@ caso tenha dificuldades, baixe o .venv, cujo a sua função principal é o isola
 
 
 Usei o Wratio porque é o que torna a aplicação uma verdadeira ferramenta de busca aproximada (fuzzy search). Ele é qye ajuda a pesquisa inteligente, buscando semelhanças aproximadas.
+# The-Best-Movie
