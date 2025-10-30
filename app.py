@@ -10,6 +10,7 @@ import plotly.express as px
 from sklearn.linear_model import LinearRegression as LR
 import numpy as np
 import datetime
+import subprocess
 
 
 # Configuração inicial do Streamlit
@@ -105,6 +106,7 @@ def load_spacy_model():
     except OSError:
         st.error("O modelo 'en_core_web_sm' do spaCy não foi encontrado. Execute: `python -m spacy download en_core_web_sm`")
         return None
+
 
 # Funções de Machine Learning
 
